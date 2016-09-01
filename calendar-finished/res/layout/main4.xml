@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/recordremindtext_color" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100px"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="68dp" />
+
+    <ImageView
+        android:id="@+id/i"
+        android:layout_width="100px"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="55dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:background="@drawable/icon" />
+
+</RelativeLayout>
